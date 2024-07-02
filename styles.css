@@ -49,7 +49,7 @@ td {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 120px;
+  height: 110px;
   margin-top: -10px;
 }
 
@@ -82,8 +82,8 @@ strong {
 
 .profile-picture {
   position: absolute !important;
-  width: 100px; 
-  height: 100px; 
+  width: 95px; 
+  height: 95px; 
   /* margin-right: 20px; */
   align-self: flex-start;
   /* top: 300px; */
@@ -91,6 +91,17 @@ strong {
   border-radius: 20%; /* Optional: makes the image round */
 }
 
+.profile-logo {
+  position: absolute !important;
+  width: 120px; 
+  height: 120px; 
+  /* margin-right: 20px; */
+  align-self: flex-end;
+  /* top: 300px; */
+  margin-right: -15px;
+  object-fit: contain;  
+  border-radius: 20%; /* Optional: makes the image round */
+}
 .iiitd-logo {
   position: absolute;
   display: block;
@@ -231,3 +242,7 @@ ul li::marker {
   break-before: auto; /* Allows content to flow naturally and break into a new page as needed */
 }
 
+.bottom-three {
+  margin-top:1vw;
+
+}

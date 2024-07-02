@@ -23,7 +23,7 @@
   </head>
   <body class="A4">
     <section class="sheet padding-10mm">
-      <img src="images/iiitd.png" class="iiitd-logo" />
+      <!-- <img src="images/iiitd.png" class="iiitd-logo" /> -->
       <div id="page1">
         <div id="header">
           <img src="images/profile-photo.jpg" class="profile-picture" alt="Profile Picture" />
@@ -45,6 +45,7 @@
             <!-- <strong>Website:</strong>
             <a id="website" target="_blank"></a> -->
           </p>
+          <img src="images/iiitd.png" class="profile-logo" />
         </div>
         <div id="education" class="section">
           <h3 class="section-title">Education</h3>
@@ -75,7 +76,7 @@
           <h3 class="section-title">Interests and Hobbies</h3>
           <ul id="interests-list"></ul>
         </div>
-        <div>
+        <div class="bottom-three">
           <p>
             <strong>Declaration:</strong> The above information is correct to
             the best of my knowledge.
@@ -260,8 +261,22 @@
       const signatureNode = document.getElementById('signature');
       signatureNode.innerHTML = data.bio.name;
 
+      // document.addEventListener('DOMContentLoaded', function() {
+      //   const date = new Date();
+      //   const options = { day: 'numeric', month: 'long', year: 'numeric' };
+      //   const formattedDate = date.toLocaleDateString('en-US', options);
+      //   document.getElementById('last-updated').innerHTML = formattedDate;
+      // });
+      
+      const date = new Date();
+      const options = { day: 'numeric', month: 'long', year: 'numeric' };
+      const formattedDate = date.toLocaleDateString('en-US', options);
+
       const dateNode = document.getElementById('last-updated');
-      dateNode.innerHTML = `Date: ${data.bio.last_updated}`;
+      dateNode.innerHTML = `Date: ${formattedDate}`;
+
+      // dateNode.innerHTML = `Date: ${data.bio.last_updated}`;
+
     });
   </script>
 </html>

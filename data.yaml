@@ -22,7 +22,7 @@ education:
     duration: 2023 - 2025 (Present)
     grade: 'CGPA: 7.20*'
     note: (Till 2nd Semester)
-  - institution: Enter BTECH University here
+  - institution: B.Tech University Here
     degree: B.Tech. CSE
     duration: 2016 - 2020
     grade: 'CGPA: 9.99'
@@ -58,10 +58,11 @@ work_experience:
     links:
       - name: Website
         link: https://philanthropycareer.net
-    tech_stack: Ruby on Rails, HTML, CSS, JavaScript
+    tech_stack: Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL
     bullets:
       - Completed software stack upgrade from Ruby 2.5.9 and Rails 5.2.8.1 to Ruby 3.2.2 and Rails 7.1.2.
       - Implemented improved filters for candidate searches and an enhanced candidate data export process.
+      - Updated existing features to increase the robustness and efficiency of the system.
   - title: '[Contract] Full Stack Developer, Lauricella Enterprises'
     subtitle: 'Product: Culture Matters [Defunct]'
     duration: Feb’ 22 - Dec’ 22
@@ -70,8 +71,8 @@ work_experience:
         link: https://culturematters.io/
     tech_stack: JavaScript, React JS, Python, Flask, Google App Engine, Google Firestore
     bullets:
-      - Designed and implemented scalable APIs to integrate external services and databases using Python, Flask, and Google Cloud Platform technologies.
-      - Performed code reviews and worked closely with the UI/UX team to ensure the delivery of a high-quality product.
+      - Created a prototype JIRA plugin for the product.
+      - Designed and implemented scalable APIs to integrate external services and databases. Performed code reviews.
   - title: '[Contract] Software Engineer, Alcazar Digital Games [Defunct]'
     subtitle: 'Product: Cluedom - Word Clue Game [Defunct]'
     duration: Oct’ 20 - Jan’ 22
@@ -85,14 +86,14 @@ work_experience:
   - title: 'Consultant, Nimba Inc. [Defunct]'
     subtitle: 'Client: Aspen Leadership Group (philanthropycareer.net)'
     duration: Apr’ 19 - July’ 20
-    tech_stack: Ruby on Rails, HTML, CSS, JavaScript
+    tech_stack: Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL
     bullets:
       - Improved the ATS by incorporating a resume parser system to reduce user data processing times by 70%.
       - Developed and maintained RESTful APIs using Python and Flask.
 # PROJECTS
 projects:
   - title: 'Cityscapes: Explore the Unexplored'
-    subtitle: 'Guide: Rajiv Ratn Shah'
+    subtitle: 'Mentor: Rajiv Ratn Shah, Associate Professor, IIIT Delhi'
     duration: Jan’ 24 - Apr’ 24
     team_size: 6
     links:
@@ -106,7 +107,7 @@ projects:
       - Designed audio input capability and support for text files and images to increase accessibility and improve user interaction with the chatbot.
     tech_stack: Python, React JS, Llama-3, MongoDB, Google Vision AI, Pydub
   - title: Real Estate Aggregator
-    subtitle: 'Guide: Arun Balaji Buduru'
+    subtitle: 'Mentor: Arun Balaji Buduru, Associate Professor, IIIT Delhi'
     duration: Aug’ 23 - Dec’ 23
     team_size: 4
     links:
