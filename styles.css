@@ -77,6 +77,18 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  page-break-inside: avoid;
+}
+
+.profile-picture {
+  position: absolute !important;
+  width: 100px; 
+  height: 100px; 
+  /* margin-right: 20px; */
+  align-self: flex-start;
+  /* top: 300px; */
+  object-fit: cover; 
+  border-radius: 20%; /* Optional: makes the image round */
 }
 
 .iiitd-logo {
@@ -214,3 +226,8 @@ ul li::marker {
     -webkit-print-color-adjust: exact;
   }
 }
+
+.section {
+  break-before: auto; /* Allows content to flow naturally and break into a new page as needed */
+}
+

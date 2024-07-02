@@ -1,96 +1,105 @@
 # BIO
 bio:
-  name: Ananya Lohani
-  roll_number: 2019018
-  email: ananya19018@iiitd.ac.in
+  name: Shantanu Mallik
+  roll_number: MT23140
+  email: shantanu23140@iiitd.ac.in
   github:
-    username: ananyalohani
-    link: https://ananya.li/gh
+    username: shantanumallik
+    link: https://github.com/shantanumallik
   linkedin:
-    username: ananyalohani
-    link: https://ananya.li/linkedin
-  dob: 11 June 2001
+    username: shantanumallik
+    link: https://www.linkedin.com/in/shantanumallik/
+  dob: 17 June 1995
   website:
     name: lohani.dev
     link: https://lohani.dev
-  last_updated: 16 July 2021
+  last_updated: 1 July 2024
 
 # EDUCATION
 education:
   - institution: Indraprastha Institute of Information Technology, Delhi
+    degree: M.Tech. CSE
+    duration: 2023 - 2025 (Present)
+    grade: 'CGPA: 7.20*'
+    note: (Till 2nd Semester)
+  - institution: Add B.Tech Institute Here
     degree: B.Tech. CSE
-    duration: 2019 - 2023 (Present)
-    grade: 'CGPA: 9.35*'
-    note: (Till 4th Semester)
-  - institution: CRPF Public School, Rohini
-    degree: CBSE Standard 12, PCM + CS
-    duration: 2017 - 2019
-    grade: 'Percentage: 96%'
+    duration: 2016 - 2020
+    grade: 'CGPA: 9.99'
+
+
 
 # SKILLS
 skills:
   - title: Expertise Area
     value: Data Structures and Algorithms, Full Stack Development, Object Oriented Programming
   - title: Programming Languages
-    value: 'Java, JavaScript - 15k lines<br/>C/C++ - 10k lines<br/>Python, TypeScript - 5k lines'
+    value: 'JavaScript - 15k lines, C/C++ - 10k lines, Python, TypeScript - 5k lines'
   - title: Tools and Technologies
-    value: Git, Next.js, ReactJS, NodeJS, GatsbyJS, GraphQL, HTML, CSS, TailwindCSS, Svelte, MongoDB, Mongoose, Firebase, MySQL
+    value: Git, Next.js, ReactJS, NodeJS, HTML, CSS, MongoDB, Mongoose, Firebase, MySQL
   - title: Technical Electives
-    value: Data Structures and Algorithms, Analysis and Design of Algorithms, Advanced Programming in Java, Computer Organization, Operating Systems, Discrete Maths, Database Management Systems
+    value: Graduate Algorithms, Information Retrieval, Distributed Systems Concepts and Design, Foundations of Computer Security
 
 # WORK EXPERIENCE
 work_experience:
-  - title: Microsoft Engage
-    subtitle: 'Mentor: Mr. Shanav Asija, Senior SWE at Microsoft'
-    duration: Jun’ 21 - Present
+  - title: Research Intern, Complex Systems Laboratory
+    subtitle: 'Mentor: Ganesh Bagler, Associate Professor, IIIT Delhi'
+    duration: Jan’ 24 - Present
     links:
       - name: Website
-        link: https://microsoft.acehacker.com/engage2021/
+        link: https://www.foodoscope.com/
+    tech_stack: ReactJS, NodeJS, MongoDB, Python, Flask
     bullets:
-      - Awarded the opportunity to attend exclusive webinars and AMA sessions by Microsoft.
-      - Designed, constructed and deployed a fully-featured video calling platform.
-  - title: Web Developer, O<span>f</span><span>f</span>icial Website of CSE Department IIIT Delhi
-    subtitle: 'Supervisor: Dr. Koteswar Rao Jerripothula'
-    duration: Feb’ 21 - Present
-    links:
-      - name: Website (Ongoing)
-        link: https://ananya.li/iiitd-cse
-    tech_stack: GatsbyJS, GraphQL, NetlifyCMS, CSS
-    bullets:
-      - Designed and developed the o<span>f</span><span>f</span>icial website of the CSE department using GatsbyJS.
-      - Deployed a headless CMS using NetlifyCMS and improved the management of website content and articles.
-  - title: Web Design Intern, Vinci Stationery
-    subtitle: 'Founder: Ms. Anisha Mata'
-    duration: Jan’ 21 - Feb’ 21
+      - Developed new APIs for RecipeDB and FlavorDB using node.js and MongoDB.
+      - Revised the user signup flow to improve user experience.
+  - title: Freelance Developer
+    subtitle: 'Client: Aspen Leadership Group (philanthropycareer.net)'
+    duration: Feb’ 23 - May’ 23
     links:
       - name: Website
-        link: https://vincistationery.com
-    tech_stack: Wix, JavaScript, Velo API
+        link: https://philanthropycareer.net
+    tech_stack: Ruby on Rails, HTML, CSS, JavaScript
     bullets:
-      - Redesigned and restructured the o<span>f</span><span>f</span>icial e-commerce website of the company that brought in 200+ new users.
-      - 'Delivered custom elements by using <strong>Velo API by Wix</strong>, like a custom product carousel.'
-  - title: '[Volunteer] Web Developer, Rising Star Khilte Chehre (NGO)'
-    subtitle: 'Founder: Mr. Nishant Jain'
-    duration: May’ 21 - Present
+      - Completed software stack upgrade from Ruby 2.5.9 and Rails 5.2.8.1 to Ruby 3.2.2 and Rails 7.1.2.
+      - Implemented improved filters for candidate searches and an enhanced candidate data export process.
+  - title: '[Contract] Full Stack Developer, Lauricella Enterprises'
+    subtitle: 'Product: Culture Matters [Defunct]'
+    duration: Feb’ 22 - Dec’ 22
     links:
       - name: Website
-        link: https://risingstarkhiltechehre.org
-    tech_stack: Wordpress, CSS, MySQL
+        link: https://culturematters.io/
+    tech_stack: JavaScript, React JS, Python, Flask, Google App Engine, Google Firestore
     bullets:
-      - Improved accessibility by making the website colorblind-safe. Fixed UI bugs.
-      - Building an authentication system for various stakeholders of the NGO.
-
+      - Designed and implemented scalable APIs to integrate external services and databases using Python, Flask, and Google Cloud Platform technologies.
+      - Performed code reviews and worked closely with the UI/UX team to ensure the delivery of a high-quality product.
+  - title: '[Contract] Software Engineer, Alcazar Digital Games [Defunct]'
+    subtitle: 'Product: Cluedom - Word Clue Game [Defunct]'
+    duration: Oct’ 20 - Jan’ 22
+    # links:
+    #   - name: Website
+    #     link: https://risingstarkhiltechehre.org
+    tech_stack: React Native, Python, Flask, Google App Engine, Google Firestore
+    bullets:
+      - Designed and developed the in-game multiplayer mode and online leaderboard, improving user retention.
+      - Added Google Analytics to the game to track user retention and better target ads.
+  - title: 'Consultant, Nimba Inc. [Defunct]'
+    subtitle: 'Client: Aspen Leadership Group (philanthropycareer.net)'
+    duration: Apr’ 19 - July’ 20
+    tech_stack: Ruby on Rails, HTML, CSS, JavaScript
+    bullets:
+      - Improved the ATS by incorporating a resume parser system to reduce user data processing times by 70%.
+      - Developed and maintained RESTful APIs using Python and Flask.
 # PROJECTS
 projects:
-  - title: Microsoft Teams Clone
-    subtitle: Capstone Project of Microsoft Engage 2021
-    duration: Jun’ 21 - Present
-    team_size: 1
+  - title: 'Cityscapes: Explore the Unexplored'
+    subtitle: An LLM based chatbot
+    duration: Jan’ 24 - Apr’ 24
+    team_size: 6
     links:
-      - name: Website
-        link: https://msft.lohani.dev/
+      # - name: Website
+      #   link: https://msft.lohani.dev/
       - name: GitHub
-        link: https://github.com/ananyalohani/teams
+        link: https://github.com/cityscapes-llm/cityscapes
     bullets:
       - Designed and developed a fully-featured clone of Microsoft Teams using Agile methods.
       - Supports video call, group chat, authentication, network quality status, background filters, etc.
@@ -111,41 +120,6 @@ projects:
       - Coded the homepage, supplies, quickbites, and internship pages and redesigned the footer.
       - Optimized the performance of the website by hosting static assets on Statically.
       - Mentored new members on the web development team.
-  - title: Mausam
-    subtitle: Personal Project
-    duration: May’ 21
-    team_size: 1
-    links:
-      - name: Website
-        link: https://ananya.li/mausam
-      - name: GitHub
-        link: https://github.com/ananyalohani/mausam
-    tech_stack: React with TypeScript, TailwindCSS, SWR
-    bullets:
-      - Mausam is a web app that fetches the weather data for the next 6 days from Metaweather API.
-      - Engineered a search bar with autocompletion that fetches cities from OpenStreetMap API.
-  - title: Color Switch
-    subtitle: 'Guide: Dr. Vivek Kumar'
-    duration: Nov’ 20 - Dec’ 20
-    team_size: 2
-    links:
-      - name: GitHub
-        link: https://github.com/ananyalohani/color-switch-java
-    tech_stack: Java, JavaFX, FXML, CSS, Gradle
-    bullets:
-      - Developed a clone of the popular Play Store app Color Switch for desktop using object-oriented and event-driven programming.
-      - Utilised the Serializable Interface in Java to save games.
-  - title: Perceptris
-    note: (Top 3 out of 100+ teams)
-    subtitle: 'Guide: Dr. Aman Parnami'
-    duration: Aug' 19 - Sep' 19
-    team_size: 3
-    links:
-      - name: GitHub
-        link: https://github.com/ananyalohani/Perceptris
-    tech_stack: Arduino, Processing, C++
-    bullets:
-      - Built a multiplayer, gesture-controlled version of the game Tetris using ultrasonic, touch and piezoelectric sensors.
 
 # POSITIONS OF RESPONSIBILITY
 leadership:

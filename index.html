@@ -26,6 +26,8 @@
       <img src="images/iiitd.png" class="iiitd-logo" />
       <div id="page1">
         <div id="header">
+          <img src="images/shantanu.jpg" class="profile-picture" alt="Profile Picture" />
+
           <h1 id="name"></h1>
           <p>
             <span id="roll-number"></span> | <strong>Email:</strong>
@@ -39,9 +41,9 @@
           </p>
           <p>
             <strong>DOB:</strong>
-            <span id="dob"></span> |
-            <strong>Website:</strong>
-            <a id="website" target="_blank"></a>
+            <span id="dob"></span> 
+            <!-- <strong>Website:</strong>
+            <a id="website" target="_blank"></a> -->
           </p>
         </div>
         <div id="education" class="section">
@@ -110,13 +112,14 @@
       const dobNode = document.getElementById('dob');
       dobNode.innerHTML = data.bio.dob;
 
-      const websiteNode = document.getElementById('website');
-      websiteNode.innerHTML = data.bio.website.name;
-      websiteNode.href = data.bio.website.link;
+      // const websiteNode = document.getElementById('website');
+      // websiteNode.innerHTML = data.bio.website.name;
+      // websiteNode.href = data.bio.website.link;
 
       const educationNode = document.getElementById('education');
       let eduHTML = '';
       data.education.map((item) => {
+        let gradeInfo = item.grade ? `<p><strong>${item.grade.split(':')[0]}:</strong>${item.grade.split(':')[1]}</p>` : '';
         eduHTML += `<div class="section-element">
             <div class="left">
               <p>
@@ -128,9 +131,7 @@
               <p>${item.duration}</p>
             </div>
             <div class="right">
-              <p><strong>${item.grade.split(':')[0]}:</strong>${
-          item.grade.split(':')[1]
-        }</p>
+              ${gradeInfo}
               <p>${item.note ? item.note : ''}</p>
             </div>
           </div>`;
