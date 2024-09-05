@@ -159,21 +159,21 @@
               i.name.split(' ')[1] ? i.name.split(' ')[1] : ''
             }`;
           });
-
+      
         let workBullets = '';
         item.bullets.map((i) => {
           workBullets += `<li>${i}</li>`;
         });
-
+      
         let ts = '';
         if (item.tech_stack)
           ts += `<li><strong class='underline'>Tech Stack:</strong> ${item.tech_stack}</li>`;
-
+      
         workHTML += `<div class="section-element">
             <div class="heading">
               <div class="left">
                 <p><strong>${item.title}</strong>${workLinks}</p>
-                <p>${item.subtitle}</p>
+                ${item.subtitle ? `<p>${item.subtitle}</p>` : ''}
               </div>
               <div class="right">
                 <p>${item.duration}</p>
@@ -186,7 +186,6 @@
           </div>`;
       });
       workNode.innerHTML += workHTML;
-
       const projectNode = document.getElementById('projects');
       let projectHTML = '';
       data.projects.map((item) => {

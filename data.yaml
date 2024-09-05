@@ -36,9 +36,9 @@ skills:
   - title: Expertise Area
     value: Data Structures and Algorithms, Full Stack Development
   - title: Programming Languages
-    value: C++, Python, JavaScript, Ruby, SQL
+    value: C++, Python, JavaScript, Java, Ruby, SQL
   - title: Frameworks & Libraries
-    value: React, Node.js, Flask, Rails
+    value: React, Node.js, Flask, Rails, Springboot
   - title: Databases
     value: MySQL, PostgreSQL, MongoDB, Firestore
   - title: Cloud Platforms
@@ -48,7 +48,7 @@ skills:
   - title: Workflows
     value: Agile, Scrum, CI/CD, TDD, BDD
   - title: Technical Electives
-    value: Information Retrieval, Computational Gastronomy, Distributed Systems, Graduate Algorithms, Foundations of Computer Security
+    value: Information Retrieval, Artificial Intelligence, Computational Gastronomy, Distributed Systems, Graduate Algorithms, Foundations of Computer Security
 
 # WORK EXPERIENCE
 work_experience:
@@ -59,22 +59,19 @@ work_experience:
     bullets:
       - Completed software stack upgrade from Ruby 2.5.9 and Rails 5.2.8.1 to Ruby 3.2.2 and Rails 7.1.2.
       - Improved performance by making server-intensive tasks asynchronous using Sidekiq.
-  - title: '[Contract] Full Stack Developer'
-    subtitle: 'Lauricella Enterprises LLC'
+  - title: '[Contract] Full Stack Developer, Lauricella Enterprises LLC'
     duration: Feb’ 22 - Dec’ 22
     tech_stack: React, Flask, Google App Engine, Google Firestore
     bullets:
       - Developed a prototype JIRA plugin.
-  - title: '[Contract] Software Engineer'
-    subtitle: 'Alcazar Digital Games'
+  - title: '[Contract] Software Engineer, Alcazar Digital Games'
     duration: Oct’ 20 - Jan’ 22
     tech_stack: React Native, Flask, Google App Engine, Google Firestore
     bullets:
       - Developed Cluedom - Word Clue Game in collaboration with mono.studio.
-  - title: Consultant
-    subtitle: 'Nimba Inc.'
+  - title: Consultant, Nimba Inc.
     duration: Apr’ 19 - July’ 20
-    tech_stack: Ruby on Rails, Flask, HTML, CSS, JavaScript, PostgreSQL, Heroku
+    tech_stack: Ruby on Rails, Flask, Java, Springboot, HTML, CSS, JavaScript, PostgreSQL, Heroku
     bullets:
       - Built a career portal for Aspen Leadership Group.
 
@@ -129,7 +126,7 @@ projects:
 # POSITIONS OF RESPONSIBILITY
 leadership:
   - position: Managed a team of 6 in developing and maintaining APIs for Foodoscope, a project under Complex Systems Laboratory.
-    duration: Jan’ 24 - Present
+    duration: Jan’ 24 - July' 24
   - position: Mentor at Codechef Student Chapter, HITK. Curated coding problems and provided mentorship.
     duration: Sep’ 18 - Feb’ 19
 
