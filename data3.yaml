@@ -1,0 +1,132 @@
+# BIO
+bio:
+  name: Shantanu Mallik
+  roll_number: MT23140
+  email: shantanu23140@iiitd.ac.in
+  github:
+    username: shantanumallik
+    link: https://github.com/shantanumallik
+  linkedin:
+    username: shantanumallik
+    link: https://www.linkedin.com/in/shantanumallik/
+  dob: 17 June 1995
+  website:
+    name: shantanu's website
+    link: https://shantanumallik.com
+  last_updated: 1 July 2024
+
+# EDUCATION
+education:
+  - institution: Indraprastha Institute of Information Technology, Delhi
+    degree: M.Tech. CSE
+    duration: 2023 - 2025 (Present)
+    grade: 'CGPA: 7.79*'
+    note: (Till 2nd Semester)
+  - institution: B.Tech University Here
+    degree: B.Tech. CSE
+    duration: 2016 - 2020
+    grade: 'CGPA: 9.99'
+
+
+
+# SKILLS
+skills:
+  - title: Expertise Area
+    value: Data Structures and Algorithms, Full Stack Development, Object Oriented Programming
+  - title: Programming Languages
+    value: 'JavaScript - 15k lines, C/C++ - 10k lines, Python, TypeScript - 5k lines'
+  - title: Tools and Technologies
+    value: Git, Next.js, ReactJS, NodeJS, HTML, CSS, MongoDB, Mongoose, Firebase, MySQL
+  - title: Technical Electives
+    value: Graduate Algorithms, Information Retrieval, Distributed Systems Concepts and Design, Foundations of Computer Security
+
+# WORK EXPERIENCE
+work_experience:
+  - title: Research Intern, Complex Systems Laboratory
+    subtitle: 'Mentor: Ganesh Bagler, Associate Professor, IIIT Delhi'
+    duration: Jan’ 24 - Present
+    links:
+      - name: Website
+        link: https://www.foodoscope.com/
+    tech_stack: ReactJS, NodeJS, MongoDB, Python, Flask
+    bullets:
+      - Developed new APIs for RecipeDB and FlavorDB using node.js and MongoDB.
+      - Revised the user signup flow to improve user experience.
+  - title: Freelance Developer
+    subtitle: 'Client: Aspen Leadership Group (philanthropycareer.net)'
+    duration: Feb’ 23 - May’ 23
+    links:
+      - name: Website
+        link: https://philanthropycareer.net
+    tech_stack: Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL
+    bullets:
+      - Completed software stack upgrade from Ruby 2.5.9 and Rails 5.2.8.1 to Ruby 3.2.2 and Rails 7.1.2.
+      - Implemented improved filters for candidate searches and an enhanced candidate data export process.
+      - Updated existing features to increase the robustness and efficiency of the system.
+  - title: '[Contract] Full Stack Developer, Lauricella Enterprises'
+    subtitle: 'Product: Culture Matters [Defunct]'
+    duration: Feb’ 22 - Dec’ 22
+    links:
+      - name: Website
+        link: https://culturematters.io/
+    tech_stack: JavaScript, React JS, Python, Flask, Google App Engine, Google Firestore
+    bullets:
+      - Created a prototype JIRA plugin for the product.
+      - Designed and implemented scalable APIs to integrate external services and databases. Performed code reviews.
+  - title: '[Contract] Software Engineer, Alcazar Digital Games [Defunct]'
+    subtitle: 'Product: Cluedom - Word Clue Game [Defunct]'
+    duration: Oct’ 20 - Jan’ 22
+    # links:
+    #   - name: Website
+    #     link: https://risingstarkhiltechehre.org
+    tech_stack: React Native, Python, Flask, Google App Engine, Google Firestore
+    bullets:
+      - Designed and developed the in-game multiplayer mode and online leaderboard, improving user retention.
+      - Added Google Analytics to the game to track user retention and better target ads.
+  - title: 'Consultant, Nimba Inc. [Defunct]'
+    subtitle: 'Client: Aspen Leadership Group (philanthropycareer.net)'
+    duration: Apr’ 19 - July’ 20
+    tech_stack: Ruby on Rails, HTML, CSS, JavaScript, PostgreSQL
+    bullets:
+      - Improved the ATS by incorporating a resume parser system to reduce user data processing times by 70%.
+      - Developed and maintained RESTful APIs using Python and Flask.
+# PROJECTS
+projects:
+  - title: 'Cityscapes: Explore the Unexplored'
+    subtitle: 'Mentor: Rajiv Ratn Shah, Associate Professor, IIIT Delhi'
+    duration: Jan’ 24 - Apr’ 24
+    team_size: 6
+    links:
+      # - name: Website
+      #   link: https://msft.lohani.dev/
+      - name: GitHub
+        link: https://github.com/cityscapes-llm/cityscapes
+    bullets:
+      - Developed a LLaMA-3 based chatbot that provides personalized and contextually relevant travel recommendations for users.
+      - Constructed a diverse knowledge base using public APIs and local sources to ensure accurate and comprehensive information on lesser-known attractions and cultural sites.
+      - Designed audio input capability and support for text files and images to increase accessibility and improve user interaction with the chatbot.
+    tech_stack: Python, React JS, Llama-3, MongoDB, Google Vision AI, Pydub
+  - title: Real Estate Aggregator
+    subtitle: 'Mentor: Arun Balaji Buduru, Associate Professor, IIIT Delhi'
+    duration: Aug’ 23 - Dec’ 23
+    team_size: 4
+    links:
+      # - name: Website
+      #   link: https://iiitdplaybook.web.app/homepage
+      - name: GitHub
+        link: https://github.com/shantanumallik/fcs-project
+    tech_stack: ReactJS, NodeJS, Google Firebase, CSS
+    bullets:
+      - Developed a Real Estate Aggregator with the aim of implementing security features that patch vulnerabilities and prevent attacks (like DDOS, XSS, SQL injection etc) on the system.
+
+# POSITIONS OF RESPONSIBILITY
+leadership:
+  - position: '<strong>Mentor</strong> at Codechef Student Chapter, HITK. Curated coding problems for hackathons and provided 1-on-1 mentorship to students.'
+    duration: Sep’ 18 - Feb’ 19
+# AWARDS AND ACHIEVEMENTS
+achievements:
+  - '<strong>99.3th Percentile</strong> in National Creativity Aptitude Test 2019 (Top 0.7%).'
+# INTERESTS AND HOBBIES
+interests:
+  - '<strong>Aviation</strong> - Loves airplanes. Can probably fly one.'
+  - '<strong>Music</strong> - Proficient guitarist and vocalist.'
