@@ -109,10 +109,10 @@ projects:
       - name: GitHub
         link: https://github.com/cityscapes-llm/cityscapes
     bullets:
-      - Developed a LLaMA-3 based chatbot that provides personalized and contextually relevant travel recommendations for users.
+      - Developed a LLaMA-2 based chatbot that provides personalized and contextually relevant travel recommendations for users.
       - Constructed a diverse knowledge base using public APIs and local sources to ensure accurate and comprehensive information on lesser-known attractions and cultural sites.
       - Designed audio input capability and support for text files and images to increase accessibility and improve user interaction with the chatbot.
-    tech_stack: Python, React JS, Llama-3, MongoDB, Google Vision AI, Pydub
+    tech_stack: Python, React, Llama-2, MongoDB, Google Vision AI, Pydub
   - title: Real Estate Aggregator
     subtitle: 'Mentor: Arun Balaji Buduru, Associate Professor, IIIT Delhi'
     duration: Aug’ 23 - Dec’ 23
@@ -122,7 +122,7 @@ projects:
       #   link: https://iiitdplaybook.web.app/homepage
       - name: GitHub
         link: https://github.com/shantanumallik/fcs-project
-    tech_stack: ReactJS, NodeJS, Google Firebase, CSS
+    tech_stack: React, NodeJS, Google Firebase, CSS
     bullets:
       - Developed a Real Estate Aggregator with the aim of implementing security features that patch vulnerabilities and prevent attacks (like DDOS, XSS, SQL injection etc) on the system.
 
